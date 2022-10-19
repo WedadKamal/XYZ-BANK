@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.98">
+    <testcase classname="F02_Login | user could login and assert on the transaction type of the withdraw" name="F02_Login | user could login and assert on the transaction type of the withdraw" time="34.792">
+        <system-out>
+            <![CDATA[When Click Customer login...................................................passed
+And Select name Albus Dumbledore............................................passed
+And Login...................................................................passed
+And Make a deposit “1000”...................................................passed
+And Withdraw “400”..........................................................passed
+Then Assert on Balance = “600”..............................................passed
+When Click on Transaction...................................................passed
+Then Assert on the transaction type of the withdraw.........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
